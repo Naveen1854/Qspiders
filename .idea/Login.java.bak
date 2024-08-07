@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Login 
+{
+	public static void main(String[] args) 
+	{
+		String un = "Naveen";
+		int psw = 991195;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter User Name:");
+		String username = sc.nextLine();
+		System.out.println("Enter password:");
+		long password = sc.nextLong();
+		if(username == un && password==psw){
+			System.out.println("Login Successful");
+	}else{
+		System.out.println("Wrong Password");
+		}
+	}
+}
