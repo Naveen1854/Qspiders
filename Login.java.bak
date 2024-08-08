@@ -8,16 +8,11 @@ class Login
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter User Name:");
 		String un = sc.nextLine();
-		
 		System.out.println("Enter password:");
 		String psw = sc.nextLine();
 		if (username.equals(un) && password.equals(psw)){
 			if(!(username.equals(un)) || !(password.equals(psw))){
-			}
-			//else if(username != (un) && password != (psw)){
-			//	System.out.println("Both username and password are inncorrect. Who are you");
-			//}
-		else{
+			}else{
 				System.out.println("Credentials Match. Welcome Naveen!");
 			}
 		}else{
