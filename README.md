@@ -1,6 +1,6 @@
 Java Full Stack Training:
 --------------------------
-1. core java:
+1. Core Java:
    =========
    *  Introduction to java
    *  Data Types
