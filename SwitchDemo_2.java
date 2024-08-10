@@ -1,4 +1,4 @@
-class SwitchDemo1  
+class SwitchDemo_2  
 {
 	public static void main(String[] args) 
 	{
