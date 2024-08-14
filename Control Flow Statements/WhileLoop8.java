@@ -1,5 +1,5 @@
 //print characters from A to Z.
-class WhileLoop4 
+class WhileLoop8
 {
 	public static void main(String[] args) 
 	{

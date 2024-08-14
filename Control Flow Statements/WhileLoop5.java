@@ -1,5 +1,5 @@
 //print 1 to 10 numbers using while loop
-class WhileLoop2 
+class WhileLoop5 
 {
 	public static void main(String[] args) 
 	{

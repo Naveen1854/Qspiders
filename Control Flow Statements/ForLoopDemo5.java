@@ -1,4 +1,4 @@
-class ForLoopDemo1 {
+class ForLoopDemo5 {
 	public static void main(String[] args) {
 		System.out.println("Alphabets:");
 		for(char c = 'A'; c <= 'Z'; c+=1){

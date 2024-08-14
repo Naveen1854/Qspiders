@@ -1,4 +1,4 @@
-class WhileLoop1 
+class WhileLoop11
 {
 	public static void main(String[] args) 
 	{

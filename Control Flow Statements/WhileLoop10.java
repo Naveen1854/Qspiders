@@ -1,5 +1,5 @@
 //print the Numbers from 20 to 10.
-class WhileLoop3
+class WhileLoop10
 {
 	public static void main(String[] args) 
 	{
