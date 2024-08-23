@@ -18,5 +18,4 @@ class MinOfThree{
       System.out.println("Enter 2nd Number: ");
       int c = sc.nextInt();
       System.out.println("The Smallest is "+ min(a,b,c));
-	}
 }
