@@ -10,3 +10,6 @@ Java Full Stack Training:
    *  Naming Formats
    *  I/O Scanner Class
    *  Control Flow Statements
+   *  Methods / Functions
+   *  Arrays
+   *  Strings
