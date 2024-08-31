@@ -23,7 +23,6 @@ class BankAccount {
          if (amount != 0) {
              balance = balance + amount;
              previousTransaction = amount;
-
          }
      }
 

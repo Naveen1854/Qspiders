@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Patterns/|Constructors/|MultiThreading/|Projects/|Methods/|Control Flow Statements/" kind="src" path=""/>
+	<classpathentry kind="src" path="Constructors"/>
+	<classpathentry kind="src" path="Control Flow Statements"/>
+	<classpathentry kind="src" path="Methods"/>
+	<classpathentry kind="src" path="MultiThreading"/>
+	<classpathentry kind="src" path="Patterns"/>
+	<classpathentry kind="src" path="Projects"/>
+	<classpathentry kind="output" path=".idea"/>
+</classpath>
