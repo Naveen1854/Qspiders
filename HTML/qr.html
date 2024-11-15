@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+        }
+        canvas {
+            margin-top: 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code Generator</h1>
+    
+    <!-- Input field and button for generating QR code -->
+    <input type="text" id="text" placeholder="Enter text to generate QR Code">
+    <button onclick="generateQRCode()">Generate QR Code</button>
+
+    <!-- Canvas to display the QR code -->
+    <canvas id="qrCanvas"></canvas>
+
+    <script>
+        // Function to generate a QR code
+        function generateQRCode() {
+            const canvas = document.getElementById('qrCanvas');
+            const context = canvas.getContext('2d');
+            const text = document.getElementById('text').value;
+            
+            // Clear previous QR code
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            // Set canvas dimensions
+            canvas.width = 200;
+            canvas.height = 200;
+            
+            // Create a simple pattern for QR code (this is for illustration purposes)
+            for (let i = 0; i < text.length; i++) {
+                for (let j = 0; j < text.length; j++) {
+                    context.fillStyle = (i + j) % 2 === 0 ? "#000" : "#fff";
+                    context.fillRect(i * 20, j * 20, 20, 20);
+                }
+            }
+        }
+    </script>
+</body>
+</html>

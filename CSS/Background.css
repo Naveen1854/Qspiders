@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 633px;
+    border: 5px solid green;
+    background-color: lightseagreen;
+    background-image: url("./Naveen.jpg");
+
+    background-size: 200px 250px;
+    background-size: 200px;
+
+    /* background-repeat: repeat; */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    background-position: top left;
+    background-position: top center;
+    background-position: top right;
+    background-position: right center;
+    background-position: bottom right;
+    background-position: bottom center;
+    background-position: bottom left;
+    background-position: left center;
+    background-position: center center;
+
+    background-attachment: scroll;
+    background-attachment: fixed;
+
+    background: rgba(135, 207, 235, 0.384) url("./Naveen.jpg") no-repeat center fixed;
+    /* background-size: 250px 350px; */
+
+}

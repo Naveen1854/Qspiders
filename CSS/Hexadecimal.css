@@ -1,0 +1,45 @@
+h1{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+
+    background-color: #ff0000;
+    background-color: #00ff00;
+    background-color: #0000ff;
+    background-color: #000000;
+    background-color: #ffffff;
+
+    background-color: #f00;
+    background-color: #0f0;
+}
+
+/* h2{
+    border: 2px solid black;
+    height: 400px;
+    width: 600px;
+
+    background-color: #0000ff;
+} */
+
+h3{
+    text-decoration-line: none;
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+
+    text-decoration-color: rgb(200,60,90);
+
+    text-decoration-style: solid;
+    text-decoration-style: dashed; 
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    /* text-decoration-style: wavy; */
+
+    text-decoration-thickness: 5px;
+
+    text-decoration-thickness: 7px rgb(54,72,20) wavy underline;
+}
+
+a{
+    text-decoration: none;
+}

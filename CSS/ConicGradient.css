@@ -1,0 +1,13 @@
+section{
+    height: 450px;
+    width: 450px;
+    border: 2px solid black;
+    margin-top: 100px;
+    margin-left: 450px;
+    border-radius: 50%;
+    background: conic-gradient(green,yellow,red,hotpink);
+    background: conic-gradient(green 0% 10%,yellow 10% 20%,red 20% 30%,hotpink 30% 40%);
+    background: repeating-conic-gradient(green 0% 10%,yellow 10% 20%,red 20% 30%,hotpink 30% 40%, black 40% 50%, violet 50% 60%);
+    background: repeating-conic-gradient(green 0% 1%,yellow 1% 2%,red 2% 3%,hotpink 3% 4%, black 4% 5%, violet 5% 6%);
+    
+}

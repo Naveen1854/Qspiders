@@ -3,33 +3,39 @@ package programs;
 import java.util.Scanner;
 
 public class ArmstrongNumber {
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter any Number");
-		int num = sc.nextInt();
-		if(isArmstrong(num)) {
-			System.out.println("Armstrong Number");
-		}else {
-			System.out.println("Not a Armstrong Number");
-			sc.close();
-		}
-	}
-	public static boolean isArmstrong(int num) { //153
-		int original = num;
-		int sum = 0;
-		int digits = String.valueOf(num).length(); // count digits = 3
-		while(num != 0) {
-			int digit  = num % 10;		// Get last digit
-			sum += power(digit,digits);	// Calculate power and add to sum
-			num /=10;					// Remove last digit
-		}
-		return sum == original;			// Check if sum equals the original number
-	}
-	public static int power(int base, int exp) {
-		int result = 1;
-		for(int i = 0; i < exp; i++) {
-			result *= base;				// Multiply base 'exponent' times
-		}
-		return result;
-	}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        // Ask the user for input
+        System.out.print("Enter a number: ");
+        int number = scanner.nextInt();
+        
+        // Find the number of digits
+        int originalNumber = number;
+        int digits = 0;
+        while (originalNumber != 0) {
+            originalNumber /= 10;
+            digits++;
+        }
+        
+        // Reset the number to original
+        originalNumber = number;
+        int sum = 0;
+        
+        // Calculate the sum of digits raised to the power of 'digits'
+        while (originalNumber != 0) {
+            int digit = originalNumber % 10;
+            sum += Math.pow(digit, digits);
+            originalNumber /= 10;
+        }
+        
+        // Check if the sum equals the original number
+        if (sum == number) {
+            System.out.println(number + " is an Armstrong number.");
+        } else {
+            System.out.println(number + " is not an Armstrong number.");
+        }
+        
+        scanner.close();
+    }
 }

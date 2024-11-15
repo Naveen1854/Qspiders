@@ -1,0 +1,15 @@
+/* Adjacent Styling Selector */
+h1+p{
+    background-color: blueviolet;
+    color: white;
+}
+
+p+p{
+    background-color: dimgray;
+    color: white;
+}
+
+/* General Sibiling Selector */
+h1+p{
+    color:brown;
+}

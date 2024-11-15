@@ -1,0 +1,14 @@
+/* [ATTRIBUTE] */
+input[type]{
+    color: aqua;
+    background-color: black;
+}
+
+input[type="email"]{
+    color: brown;
+    background-color: aquamarine;
+}
+
+input[naveen="java developer"]{
+    background-color: aqua;
+}

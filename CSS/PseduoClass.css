@@ -1,0 +1,32 @@
+/* FIRST-CHILD */
+div>p:first-child{
+    color: aqua;
+    background-color: gray;
+}
+
+/* LAST-CHILD */
+div>p:last-child{
+    color: brown;
+    background-color: aquamarine;
+}
+
+/* NTH-CHILD */
+div>p:nth-child(5){
+    color:goldenrod;
+    background-color: blueviolet;
+}
+
+div>p:nth-child(even){
+    color: brown;
+    background-color: cadetblue;
+}
+
+div>p:nth-child(odd){
+    color:black;
+    background-color: goldenrod;
+}
+
+div>p:nth-child(3n){
+    color: aqua;
+    background-color: black;
+}
