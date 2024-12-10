@@ -1,0 +1,41 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+#a{
+    color: blue !important;
+    color: aqua;
+}
+
+#n{
+    color: red;
+}
+
+.nani{
+    background-color: red;
+    font-size: x-large;
+    color: yellow;
+}
+
+/* div{
+    height: 400px;
+    width: 600px;
+} */
+
+h1{
+    color: hotpink;
+}
+
+#a,#n,h1{
+    background-color: black
+}
+
+*{
+    background-color: chocolate;
+}
+
+div p{
+    background-color: yellow;
+}

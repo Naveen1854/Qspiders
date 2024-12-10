@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#parent{
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    display: grid;
+}
+
+.child{
+    height: 150px;
+    width: 150px;
+}
+
+section>div:first-child{
+    background-color: green;
+}
+
+section>div:nth-child(2){
+    background-color: rgb(207, 31, 169);
+}
+
+section>div:last-child{
+    background-color: cadetblue;
+}
