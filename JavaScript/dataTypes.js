@@ -1,49 +1,55 @@
-// Data Types in JSON
+// Datatypes
 
-// Primitive (7)
-// Number, String, Boolean, Undefined, Null, BigInt, Symbol
+// 1. String 
+var name = 'Naveen';
+var name1 = "Akshay";
+var name2 = `Sehwag`;
+console.log(name);
+console.log(typeof name);
 
-isFollow = true;
-console.log(typeof(isFollow));
+console.log(name1);
+console.log(typeof name1);
 
-age  = 23;
-console.log(typeof(age));
+console.log(name2);
+console.log(typeof name2);
 
-a=null;
-console.log(typeof(a));
+// 2. Number
+let a = 10;
+let b = 12345.54345;
+console.log(a);
+console.log(typeof a);
 
-let x = BigInt("123");
-let y = Symbol("Hello!..")
+console.log(b);
+console.log(typeof b);
 
-const student = {
-    firstName: "Kusuma",
-    lastName: "Naveen",
-    fullName: "Kusuma Naveen",
-    age: 23,
-    cgpa: 8.2,
-    isPass: true, 
-    address: "hyedrabad"
-};
-console.log(student);
-console.log(student["address"],student["fullName"]);
-console.log(student.address,student.age, student.cgpa,student.fullName);
-console.log(student.firstName + " " + student.lastName);
+// 3. boolean
+var bool1 = true;
+let bool2 = false;
+console.log(bool1);
+console.log(typeof bool1);
 
-const product = {
-    title: "Ball Pen",
-    rating: 4,
-    offer: 5,
-    price: 270,
-};
-console.log(product);
+console.log(bool2);
+console.log(typeof bool2);
 
-const profile = {
-    username: "@Naveen",
-    isFollow: false,
-    posts: 195 + " posts",
-    followers: 569 + " k followers",
-    following: 4,
-    college: "SR University"
-};
-console.log(typeof profile.username);
+// 4. Null
+var x = null;
+console.log(x);
+console.log(typeof x);
 
+// Undefined
+var und;
+console.log(und)
+console.log(typeof und);
+
+// 6. BigInt
+let bigInteger = 123456789123456789n
+console.log(bigInteger);
+
+// 7. Symbol
+let sym = Symbol(3);
+console.log(sym);
+console.log(typeof sym);
+
+
+
+// 8. Object

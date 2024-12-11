@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p:hover{
+    /* font-size: xx-small;
+    font-size: medium;
+    font-size: xx-large;
+    font-size: 25px; */
+/* 
+    font-style: normal;
+    font-style: oblique;
+    font-style: italic; */
+
+    /* font-weight: 700;
+    font-weight: 900; */
+
+    /* font-family: 'Courier New', Courier, monospace;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: cursive; */
+    font-family: "Honk", system-ui;
+    font-family: "Bangers", system-ui;
+    color: white;
+    background-color: black;
+}

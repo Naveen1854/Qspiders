@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    height: 220px;
+    width: 220px;
+    border: 2px solid black;
+}
+#red{
+    background-color: red;
+    float: none;
+    float: left;
+    float: right;
+}
+#green{
+    background-color: green;
+    float: right;
+}
+#blue{
+    background-color: blue;
+    float: none;
+    float: left;
+    float: right;
+}

@@ -1,0 +1,29 @@
+/* p::first-letter{
+    font-size: 100px;
+} */
+
+/* p::first-line{
+    color: red;
+    background-color: yellow;
+} */
+
+/* p::before{
+  content:"🫀";
+} */
+
+/* p::after{
+  content: "🐔";
+} */
+
+p::selection{
+    color:yellow;
+    background-color: green;
+}
+
+li::marker{
+  content: "🎧";
+}
+
+input::placeholder{
+    color: red;
+}

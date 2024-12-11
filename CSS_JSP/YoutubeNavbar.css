@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav{
+    height: 90px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+img{
+    height: 30px;
+    width: 130px;
+}
+sup{
+    position: absolute;
+    right: 7px;
+    top: 24px;
+    color: #767676;
+}
+#one{
+    /* border: 2px solid blue; */
+    flex-basis: 17%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    position: relative;
+}
+.fa-bars{
+   font-size: 24px;
+}
+#two{
+    /* border: 2px solid blue; */
+    flex-basis: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+}
+input{
+    height: 40px;
+    width: 470px;
+    border-radius: 20px;
+    border: 1px solid #d0d0d0;
+    padding-left: 20px;
+}
+input:focus{
+    outline: 1px solid blue;
+}
+#search{
+
+    border: 1px solid #d0d0d0;
+    height: 40px;
+    width: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    right: 240px;
+}
+#mic{
+    height: 40px;
+    width: 40px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #efefef;
+}
+#three{
+    /* border: 2px solid blue; */
+    flex-basis: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.fa-ellipsis-vertical{
+    font-size: 25px;
+}
+#user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(168, 168, 168);
+    height: 44px;
+    width: 112px;
+    border-radius: 30px;
+    gap: 12px;
+}

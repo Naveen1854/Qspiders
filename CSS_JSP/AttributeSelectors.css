@@ -1,0 +1,14 @@
+/* ! [ATTR] */
+input[type]{
+    color: white;
+    background-color: black;
+}
+/* ! [ATTR="VALUE"] */
+input[type="email"]{
+    color: white;
+    background-color: black;
+}
+/* ! ANY ATTRIBUTE NAME */
+input[rahul="webTech"]{
+    background-color: blue;
+}

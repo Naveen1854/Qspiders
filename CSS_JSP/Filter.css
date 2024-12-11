@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 600px;
+    width: 600px;
+    filter: blur(5px);
+    filter: brightness(40%);
+    filter: grayscale(100%);
+    filter: opacity(10%);
+}
+
+img:hover{
+    /* filter: blur(0px); */
+    /* filter: brightness(100%); */
+    /* filter: grayscale(0%); */
+    /* filter: opacity(100%); */
+}
+
+
+
+#heart:hover{
+    filter: drop-shadow(40px 40px 40px rgba(255,0,0,0.8));
+}

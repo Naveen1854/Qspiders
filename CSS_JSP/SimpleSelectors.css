@@ -1,0 +1,49 @@
+/* !ID(#) */
+/* #love{
+    color: red;   
+}
+
+#hate{
+    background-color: black;
+} */
+/* !CLASS(.) */
+/* .sub{
+    color: white;
+    background-color: black;
+}
+.something{
+    font-size: 70px;
+} */
+/*!TAGNAME */
+/* h1{
+    color: gold;
+}
+p{
+    color: aqua;
+} */
+
+/* !GROUPING (,) */
+/* #hello,.sub,h3{
+    color: yellow;
+    background-color: green;
+} */
+
+/* !UNIVERSAL(*) */
+/* *{
+    color: red;
+    background-color: black;
+} */
+
+/*! PRIORITIES OF SIMPLE SELECTORS */
+#hello{
+    color: red;
+}
+.bye{
+    color: green;
+}
+h1{
+    color: blue;
+}
+*{
+    color: pink;
+}

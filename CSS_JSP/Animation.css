@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    height: 100vh;
+    background-color: #efefef;
+}
+/* !EXAMPLE 1 */
+/* h1{
+    animation-name:whatever;
+    animation-duration:1s;
+    animation-delay: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    animation-direction: alternate-reverse;
+    animation: whatever 2s 0s ease infinite alternate;
+}
+@keyframes whatever{
+ from{
+    font-size: 10px;
+ }to{
+   font-size: 500px;
+ }
+}  */
+
+/* !EXAMPLE 2 */
+/* img{
+    height: 490px;
+    width: 490px;
+    border-radius: 50%;
+    animation-name: hypnotize;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation: hypnotize 500ms 0s linear infinite normal;
+} 
+@keyframes hypnotize{
+    from{
+       rotate:0deg;
+    }to{
+        rotate:360deg;
+    }
+}*/
+
+/* !EXAMPLE 3 */
+/* #container{
+    height: 100vh;
+    width: 100vw;
+    animation: colors 500ms 0s ease infinite alternate;
+}
+@keyframes colors{
+   0%{
+    background-color: red;
+   }20%{
+    background-color: green;
+   }40%{
+    background-color: blue;
+   }60%{
+    background-color: yellow;
+   }80%{
+    background-color: hotpink;
+   }100%{
+    background-color: aqua;
+   }
+} */
+
+/* !EXAMPLE 4 */
+#img_container{
+    height: 70vh;
+    width: 55vw;
+    border: 2px solid black;
+    display: flex;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+img{
+    height: 100%;
+    min-width: 100%;
+    animation: models 10s 0s ease infinite normal;
+    position: relative;
+}
+
+@keyframes models{
+    0%{
+        right: 0%;
+    }
+    12.5%{
+     right:0%
+    }
+    25%{
+        right:100%;
+    }
+    37.5%{
+        right:100%;
+    }
+    50%{
+        right: 200%;
+    }
+    62.5%{
+        right: 200%;
+    }
+    75%{
+        right: 300%;
+    }
+    87.5%{
+        right: 300%;
+    }
+    100%{
+        right: 0%;
+    }
+}

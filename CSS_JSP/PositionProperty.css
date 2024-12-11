@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+/* !POSITION:STATIC */
+/* #static{
+    height: 200px;
+    width: 200px;
+    background-color: darkolivegreen;
+    position: static;
+    top: 10px;
+    left: 500px;
+} */
+/* !POSITION:RELATIVE */
+/* #relative{
+    height: 250px;
+    width: 250px;
+    background-color: midnightblue;
+    position: relative;
+    top: -200px;
+    left: 550px;
+} */
+
+/* !POSITION:ABSOLUTE */
+/* *SCENARIO-1 */
+/* #parent{
+    height: 400px;
+    width: 450px;
+    background-color: yellow;
+    margin: 50px;
+    position: relative;
+}
+#child{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: red;
+    position: absolute;
+    top: 20px;
+} */
+/* *SCENARIO-2 */
+/* div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+#red{
+    background-color: red;
+}
+#green{
+    background-color: green;
+    position: absolute;
+}
+#blue{
+    background-color: blue;
+    height: 250px;
+} */
+
+/* !POSITION:FIXED */
+/* #fixed{
+    height: 300px;
+    width: 300px;
+    background-color: darkseagreen;
+    position: fixed;
+    top: 140px;
+    left: 550px;
+} */
+
+/* !POSITION:STICKY */
+/* section{
+    height: 1200px;
+}
+#one{
+    background-color: darkolivegreen;
+}
+#two{
+    background-color: rebeccapurple;
+}
+nav{
+    height: 100px;
+    background-color: lightpink;
+    position: sticky;
+    top: 10px;
+}
+p{
+    font-size: 30px;
+    color: white;
+} */
+
+/* !Z-INDEX */
+div{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+#virat{
+   position: absolute;
+   z-index: 10;
+}
+#rohit{
+  position: absolute;
+  z-index: 100;
+}
+#hardik{
+  position: absolute;
+  z-index: 1;
+}
